@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="icon" href="https://i.ibb.co/XJgyfR3/WOW.png">
+    <link rel="shortcut icon" href="https://i.ibb.co/XJgyfR3/WOW.png">
+    <meta charset="UTF-8">
+    <title>USEFUL WEBSITE COLLECTION</title>
+    
+    <style>
+        html {
+            background-color : #99CC99;
+        }
+        
+        h3 {
+            color: #6666FF;
+        }
+
+        button {
+            background-color: #FFCCFF;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img style="background-color: #66FFFF; border: solid #FF0000; border-width: 5px" src="https://i.ibb.co/XJgyfR3/WOW.png" width="100px" height="100px">
+    </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <button onclick="remove_bg()"><h3>이미지 배경 제거</h3></button>
+    <button onclick="capcut()"><h3>온라인으로 동영상 편집</h3></button>
+    <button onclick="youtube()"><h3>유튜브</h3></button>
+    <button onclick="image_host()"><h3>이미지 호스팅</h3></button>
+    <button onclick="AI_coding()"><h3>AI(인공지능)이 코딩해주는 사이트</h3></button>
+    <button onclick="app_inventor()"><h3>블록코딩으로 앱 만들기(앱인벤터)</h3></button>
+    <button onclick="grammer()"><h3>영어 맞춤법 검사</h3></button>
+    <button onclick="color_rgb()"><h3>RGB 색상 코드 복사</h3></button>
+
+    <script>
+        function remove_bg() {
+            window.location.href = "https://www.remove.bg/ko";
+        }
+
+        function capcut() {
+            window.location.href = "https://www.capcut.com/ko-kr/tools/online-video-editor";
+        }
+
+        function youtube() {
+            window.location.href = "https://www.youtube.com/?app=desktop&hl=ko&gl=KR";
+        }
+
+        function image_host() {
+            window.location.href = "https://imgbb.com";
+        }
+
+        function AI_coding() {
+ window.location.href = "https://claude.ai/onboarding";
+        }
+
+        function app_inventor() {
+            window.location.href = "https://appinventor.mit.edu";
+        }
+        
+        function grammer() {
+        window.location.href = "https://www.zerogpt.com/grammar-checker?r=gwords&gad_source=1&gclid=CjwKCAjw5qC2BhB8EiwAvqa41oSNaQWQbw4X8tYHGkSM2ClzTafPcEIEXWy01JSUI0slVTdcDdyhJBoC49QQAvD_BwE";
+        }
+
+        function color_rgb() {
+            color_name = window.prompt("색상 이름을 영문 소문자로 입력하세요")
+            if (color_name == 'red') {
+                window.navigator.clipboard.writeText("#FF0000")
+                document.write('#FF0000')
+            }
+
+            if (color_name == 'green') {
+                window.navigator.clipboard.writeText("#00FF00")
+                document.write('#00FF00')
+            }
+
+            if (color_name == 'blue') {
+                window.navigator.clipboard.writeText("#0000FF")
+                document.write('#0000FF')
+            }
+
+            if (color_name == 'pink') {
+                window.navigator.clipboard.writeText("#FF00FF")
+                document.write('#FF00FF')
+            }	
+
+            if (color_name == 'white') {
+                window.navigator.clipboard.writeText("#FFFFFF")
+                document.write('#FFFFFF')
+            }
+
+            if (color_name == 'black') {
+                window.navigator.clipboard.writeText("#000000")
+                document.write('#000000')
+                
+            }
+
+            if (color_name == 'aqua'|| color_name == 'sky blue') {
+                window.navigator.clipboard.writeText("#33FFFF")
+                document.write('#33FFFF')
+            }
+
+            if (color_name == 'brown') {
+                window.navigator.clipboard.writeText("#663300")
+                document.write('#663300')
+            }
+
+            if (color_name == 'purple') {
+                window.navigator.clipboard.writeText("#660066")
+                document.write('#660066')
+            }
+
+            if (color_name == 'violet') {
+                window.navigator.clipboard.writeText("#9933FF")
+                document.write('#9933FF')
+            }
+        }
+    </script>
+</body>
+</html>
